@@ -1,6 +1,11 @@
 Checkers Game
 
 Since Haskell is a functional programming language, we thought that creating a game that took input and gave out ouput 
-efficiently, while taking advantage of recursion. Checkers fit this description perfectly, because it seems like it is 
+efficiently, while taking advantage of Haskell's functionality with recursion. Checkers fit this description perfectly, because it seems like it is 
 well-suited for Haskell. The main deficiency of this project and Haskell is the visual aspect, which we are going to fix 
 this issue by using Python to create the visual board. 
+
+Projected Dates:
+
+Map of project 10/26/18
+
