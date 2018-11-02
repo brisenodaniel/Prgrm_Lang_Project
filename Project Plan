@@ -1,11 +1,11 @@
-Checkers Game
+Calculator
 
-Since Haskell is a functional programming language, we thought that creating a game that took input and gave out ouput 
-efficiently, while taking advantage of Haskell's functionality with recursion. Checkers fit this description perfectly,
-because it seems like it is well-suited for Haskell. The main deficiency of this project and Haskell is the visual aspect, 
-which we are going to fix this issue by using Python to create the visual board. 
+Initially, we had planned to do a checkers game for our program. We quickly realized that Haskell is better suited for something
+that is a bit more mathematical, and requires less visual programming. We decided that a calculator would fit the language 
+quite nicely, as it is a visual representaiton of pure mathematics. Hopefully, we can make full use of Haskells functionality
+to make an effective calculator.
 
 Projected Dates:
 
-Map of project 10/26/18
+Map of project 11/2/18
 
