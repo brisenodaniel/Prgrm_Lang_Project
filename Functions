@@ -1,4 +1,4 @@
-```haskell
+```python
 doubleMe :: Int -> Int --function declaration
 doubleMe x = x + x  --function definition
 
