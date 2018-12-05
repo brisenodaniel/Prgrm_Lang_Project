@@ -17,16 +17,28 @@ ghci> take 12 (cycle "WOW ")
 Lazy evaluation has many advantages, its main drawback is that memory usage can become unpredictable.
 
 
-# Haskell is strongly typed
+# Haskell is statically typed
 Haskell is unique in its typing compared to other strongly typed languages, as types are automatically inferred. 
-You should document the types you're going to be using, but you don't have to declare the types. In a sense, 
-Haskell is similar to Python where the
-
+You should document the types you're going to be using, but you don't have to declare the types.
 This means that you very rarely have to declare the types of your functions, except as a means of code documentation. 
+Haskell will look at how you use the variables and figure out from there what type the variable should be. Some would say Haskell  is superior to languages like python in a sense, because even though they both assume the type, Haskell will catch errors at compile time instead of run time.  All the types composed together by function application have to match up. If they don't, the program will be rejected by the compiler. 
 
-Haskell will look at how you use the variables and figure out from there what type the variable should be. Some would say Haskell 
-is superior to languages like python in a sense, because even though they both assume the type, Haskell will catch errors 
-at compile time instead of run time.
+# Haskell is pure
+
+In Haskell, there are no statements or instructions, only expressions which cannot mutate variables (local or global) nor access state like time or random numbers.
+
+
+The following function takes an integer and returns an integer. By the type it cannot do any side-effects whatsoever, it cannot mutate any of its arguments.
+
+doubleMe :: Int -> Int
+doubleMe x = x +x
+
+The following string concatenation works:
+"My name is " ++ "Colton!" 
+
+The following string concatenation is a type error:
+"Name: " ++ getLine
+Because getLine has type IO String and not String. Name is of type String. You can't mix and match purity with impurity.
 
 
 
