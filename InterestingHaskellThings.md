@@ -41,4 +41,3 @@ The following string concatenation is a type error:
 Because getLine has type IO String and not String. Name is of type String. You can't mix and match purity with impurity.
 
 
-
