@@ -14,6 +14,7 @@ ghci> take 50 ['a','b'..]
 ghci> take 12 (cycle "WOW ")  
 "WOW WOW WOW " 
 ```
+Lazy evaluation has many advantages, its main drawback is that memory usage can become unpredictable.
 
 
 # Haskell is strongly typed
@@ -27,5 +28,5 @@ Haskell will look at how you use the variables and figure out from there what ty
 is superior to languages like python in a sense, because even though they both assume the type, Haskell will catch errors 
 at compile time instead of run time.
 
-# Haskell is Pure
+
 
