@@ -31,10 +31,14 @@ doubleMe :: Int -> Int
 doubleMe x = x +x
 
 The following string concatenation works:
+```haskell
 "My name is " ++ "Colton!" 
+```
 
 The following string concatenation is a type error:
+```haskell
 "Name: " ++ getLine
+```
 Because getLine has type IO String and not String. Name is of type String. You can't mix and match purity with impurity.
 
 
