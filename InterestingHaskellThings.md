@@ -27,8 +27,10 @@ In Haskell, there are no statements or instructions, only expressions which cann
 
 The following function takes an integer and returns an integer. By the type it cannot do any side-effects whatsoever, it cannot mutate any of its arguments.
 
+```haskell
 doubleMe :: Int -> Int
 doubleMe x = x +x
+```
 
 The following string concatenation works:
 ```haskell
