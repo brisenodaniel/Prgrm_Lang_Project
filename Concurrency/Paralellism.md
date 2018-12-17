@@ -1,4 +1,4 @@
-### Concurrency in Haskell
+### Concurrency and in Haskell
 
 Concurrency is often thought of as the same thing as parallelism. There are distinct differences between these two computing techniques.
 
@@ -9,4 +9,13 @@ Concurrency is often thought of as the same thing as parallelism. There are dist
 but rather because that is the simplest and most direct way to write the program. Since the threads perform I/O, the semantics of the program is necessarily non-deterministic.
 
 GHC supports both concurrency and parallelism. It has a parallel garbage collector as well.
+
+Example: downloading files using parallelism
+```haskell
+theFile :: URL -> IO ()
+theFile = undefined
+
+theFiles :: [URL] -> IO ()
+theFiles = mapM_ (forkIO . theFile)
+```
 
