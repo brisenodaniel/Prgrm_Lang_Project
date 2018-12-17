@@ -19,3 +19,9 @@ theFiles :: [URL] -> IO ()
 theFiles = mapM_ (forkIO . theFile)
 ```
 
+
+* "If you need getNumCapabilities in your program, then your are certainly programming parallelism.
+* If your parallelising efforts make sense on a single processor machine, too, then you are certainly programming concurrency.
+"
+
+source: https://wiki.haskell.org/Parallelism_vs._Concurrency
