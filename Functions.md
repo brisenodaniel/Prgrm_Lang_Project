@@ -65,17 +65,16 @@ bmiTell weight height
 ```
   
   You can use the where clause to pattern matching. You can also use the where clause to define functions. 'Where' bindings are syntactic constructs, 'let' bindings are expressions
-
   
-
-
 The "where" clause, however, is not the end-all and be-all of declaration. 
 ```haskell
 f :: State s a
 f = State $ \x -> y
    where y = ... x ...
-# The function above won't work because x is not in scope, and where is referring to the pattern matching of f=. 
-# When "let" is used, we don't have a problem.
+```
+The function above won't work because x is not in scope, and where is referring to the pattern matching of f=. 
+When "let" is used, we don't have a problem.
+```haskell
 f :: s -> (a,s)
 f x =
    let y = ... x ...

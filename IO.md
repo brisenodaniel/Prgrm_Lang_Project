@@ -1,6 +1,4 @@
-One big difference between Haskell and popular imperative languages is that
-Haskell functions can't change a state. If a function is called multiple times
-with the same parameters, it must return the same result.
+
 
 To start, a simple hello world:
 
