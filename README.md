@@ -4,3 +4,4 @@ These blogs serve as an investigation into the Haskell language, as well as the 
 
 ## Blog Posts:
 [On ARS and TRS](https://hackmd.io/s/Hy-ZMCvo7#)
+[Exercise on TRS](https://hackmd.io/s/HJsDRDdeE#)
