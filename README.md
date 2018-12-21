@@ -11,3 +11,6 @@ These blogs serve as an investigation into the Haskell language, as well as the 
 ## Blog Posts on Haskell
 - [Curried Functions in Haskell](https://hackmd.io/s/HkIHC6YgV#)
 - [Functions as Data in Haskell](https://hackmd.io/s/r1lg8e9eV)
+- [Simply Typed Lambda Calculus and Haskell](https://hackmd.io/s/HJgUpgceV#) 
+  
+   
