@@ -6,3 +6,4 @@ These blogs serve as an investigation into the Haskell language, as well as the 
 - [On ARS and TRS](https://hackmd.io/s/Hy-ZMCvo7#)
 - [Exercise on TRS](https://hackmd.io/s/HJsDRDdeE#)
 - [Excercise on Termination](https://hackmd.io/s/Hk4pm2OxN)
+- [Exercise on Partial Correctness](https://hackmd.io/s/BkNq-tKlE#)
