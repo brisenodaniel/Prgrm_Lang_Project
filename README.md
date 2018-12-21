@@ -12,5 +12,8 @@ These blogs serve as an investigation into the Haskell language, as well as the 
 - [Curried Functions in Haskell](https://hackmd.io/s/HkIHC6YgV#)
 - [Functions as Data in Haskell](https://hackmd.io/s/r1lg8e9eV)
 - [Simply Typed Lambda Calculus and Haskell](https://hackmd.io/s/HJgUpgceV#) 
-  
-   
+
+## Calculator Project
+- [Setting up the Calculator on Your Device](https://hackmd.io/s/Bk4XAQ9gV#) 
+- [Rough Outline](https://hackmd.io/s/SJrWNm5g4)
+- [Implementation](https://hackmd.io/s/Bk_Nwmqg4)
