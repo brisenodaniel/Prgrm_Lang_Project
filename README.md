@@ -1,6 +1,6 @@
 # Prgrm_Lang_Project
 Welcome to Colton and Daniel's blog for CPSC 354!
-These blogs serve as an investigation into the Haskell language, as well as the structure of programming languages in general.
+These blogs serve as an investigation into the Haskell language, as well as the structure of programming languages in general. The files included in this readme as well as the other files in this repository are all part of this blog for CPSC354.
 
 ## Blog Posts (Exercises):
 - [On ARS and TRS](https://hackmd.io/s/Hy-ZMCvo7#)
