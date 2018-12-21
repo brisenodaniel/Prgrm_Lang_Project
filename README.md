@@ -7,3 +7,7 @@ These blogs serve as an investigation into the Haskell language, as well as the 
 - [Exercise on TRS](https://hackmd.io/s/HJsDRDdeE#)
 - [Excercise on Termination](https://hackmd.io/s/Hk4pm2OxN)
 - [Exercise on Partial Correctness](https://hackmd.io/s/BkNq-tKlE#)
+  
+## Blog Posts on Haskell
+- [Curried Functions in Haskell](https://hackmd.io/s/HkIHC6YgV#)
+- [Functions as Data in Haskell](https://hackmd.io/s/r1lg8e9eV)
