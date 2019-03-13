@@ -7,8 +7,14 @@ These blogs serve as an investigation into the Haskell language, as well as the 
 - [Exercise on TRS](https://hackmd.io/s/HJsDRDdeE#)
 - [Excercise on Termination](https://hackmd.io/s/Hk4pm2OxN)
 - [Exercise on Partial Correctness](https://hackmd.io/s/BkNq-tKlE#)
-  
-## Blog Posts on Haskell
+ 
+## Colton's Blog Posts on Haskell
+- [IO](https://github.com/brisenodaniel/Prgrm_Lang_Project/blob/master/IO.md)
+- [Functions](https://github.com/brisenodaniel/Prgrm_Lang_Project/blob/master/Functions.md)
+- [Concurrency and Parallelism](https://github.com/brisenodaniel/Prgrm_Lang_Project/blob/master/ConcurrencyAndParallelism.md)
+- [Interesting things about Haskell](https://github.com/brisenodaniel/Prgrm_Lang_Project/blob/master/InterestingHaskellThings.md)
+- [Full Calculator Code](https://github.com/brisenodaniel/Prgrm_Lang_Project/blob/master/calculator.hs)
+## Daniel's Blog Posts on Haskell
 - [Curried Functions in Haskell](https://hackmd.io/s/HkIHC6YgV#)
 - [Functions as Data in Haskell](https://hackmd.io/s/r1lg8e9eV)
 - [Simply Typed Lambda Calculus and Haskell](https://hackmd.io/s/HJgUpgceV#) 
@@ -17,3 +23,4 @@ These blogs serve as an investigation into the Haskell language, as well as the 
 - [Setting up the Calculator on Your Device](https://hackmd.io/s/Bk4XAQ9gV#) 
 - [Rough Outline](https://hackmd.io/s/SJrWNm5g4)
 - [Implementation](https://hackmd.io/s/Bk_Nwmqg4)
+
